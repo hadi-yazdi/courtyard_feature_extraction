@@ -8,14 +8,14 @@ The following are accessible via this page. The object detection and segmentatio
 #
 **List of files**
 
-* courtyard_detection_trainig.ipynb: The training of the courtyard detection by the Remo_app onject detection tutorial
-* courtyard_segmentation.ipynb: The training of the courtyard image segmentation by the Remo_app instance segmentation tutorial
-* courtyard_segmentation_offset.ipynb:  The training of the courtyard_offset image segmentation by the Remo_app instance segmentation tutorial
-* courtyard_detection_crop.py: The code that detects the central courtyards and crop them for two different datasets; courtyard and courtyard_offset datasets
-* Segmentation_to_dataframe.py: The code that segment the objects in both datasets and extract the features of the object to create the main dataset. This code uses the weather.csv file to get the climate information of each sample and add these information to each sample. The output of the code is the main csv dataset file which is named dataset.csv.
-* data_analysis.ipynb: Data cleaning and data analysis process on the main dataset that the samples of the outputs are several diagrams in the image folder.
-* dataset.csv: The main dataset
-* dataset_2.csv: The main dataset after removing the wrong and outlayers data.
-* dataset_geometric.csv:  The final dataset with just geometrical features.
-* dataset_cities.csv: The dataset of the mean of the features in different cities.
-* dataset_zones.csv: The dataset of the mean of the features in different climatic zones.
+* **courtyard_detection_trainig.ipynb:** The training of the courtyard detection by the Remo_app onject detection tutorial
+* **courtyard_segmentation.ipynb:** The training of the courtyard image segmentation by the Remo_app instance segmentation tutorial
+* **courtyard_segmentation_offset.ipynb:**  The training of the courtyard_offset image segmentation by the Remo_app instance segmentation tutorial
+* **courtyard_detection_crop.py:** The code that detects the central courtyards and crop them for two different datasets; courtyard and courtyard_offset datasets
+* **Segmentation_to_dataframe.py:** The code that segment the objects in both datasets and extract the features of the object to create the main dataset. This code uses the weather.csv file to get the climate information of each sample and add these information to each sample. The output of the code is the main csv dataset file which is named dataset.csv.
+* **data_analysis.ipynb:** Data cleaning and data analysis process on the main dataset that the samples of the outputs are several diagrams in the image folder.
+* **dataset.csv:** The main dataset
+* **dataset_2.csv:** The main dataset after removing the wrong and outlayers data.
+* **dataset_geometric.csv:**  The final dataset with just geometrical features.
+* **dataset_cities.csv:** The dataset of the mean of the features in different cities.
+* **dataset_zones.csv:** The dataset of the mean of the features in different climatic zones.
